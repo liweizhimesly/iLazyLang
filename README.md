@@ -1,0 +1,2 @@
+# iLazyLang
+a lang
