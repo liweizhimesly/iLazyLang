@@ -1,5 +1,6 @@
 #this name is i lazy lang
 #or il
+#Copyright by Liweizhimesly
 #AI write:
 import os
 
@@ -398,4 +399,5 @@ while i-1<len(codes):
         print(f"[zt]:now i\'m {zt}.")
     i = i+1 
     #print(aline)
+
     #print("now",i)
