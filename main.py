@@ -34,7 +34,7 @@ def rfl(fp):
                 # 去除行尾的换行符（rstrip会移除末尾所有指定字符，默认包含空格，这里明确指定只删\n和\r）
                 cleaned_line = line.rstrip('\n\r')
                 
-                lines.append(cleaned_line)
+                lines.append(cleaned_line.lstrip())
                         
     except FileNotFoundError:
         print(f"错误：文件 '{file_path}' 不存在")
